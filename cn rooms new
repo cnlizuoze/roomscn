@@ -1,8 +1,8 @@
-game.StarterGui:SetCore("SendNotification", { Title = "译者:纳西妲世界第一"; Text = "群号742810207,代理者:hi32mop" })
+game.StarterGui:SetCore("SendNotification", { Title = "译者:纳西妲世界第一"; Text = "快手号：lizuoze666" })
 Duration = 5;
 
 if game.PlaceId ~= 6839171747 or game.ReplicatedStorage.GameData.Floor.Value ~= "Rooms" then
-	game.StarterGui:SetCore("SendNotification", { Title = "hi32mop提醒"; Text = "这里不是门-房间，请在门-房间注入" })
+	game.StarterGui:SetCore("SendNotification", { Title = "纳西妲世界第一可爱提醒"; Text = "这里不是门-房间，请在门-房间注入" })
 	
 	local Sound = Instance.new("Sound")
 	Sound.Parent = game.SoundService
@@ -13,7 +13,7 @@ if game.PlaceId ~= 6839171747 or game.ReplicatedStorage.GameData.Floor.Value ~= 
 	
 	return
 elseif workspace:FindFirstChild("PathFindPartsFolder") then
-	game.StarterGui:SetCore("SendNotification", { Title = "hi32mop提醒"; Text = "该脚本只能执行一次，移动后无法复位" })
+	game.StarterGui:SetCore("SendNotification", { Title = "纳西妲世界第一可爱提醒"; Text = "该脚本只能执行一次，移动后无法复位" })
 	
 	local Sound = Instance.new("Sound")
 	Sound.Parent = game.SoundService
@@ -131,7 +131,7 @@ LatestRoom:GetPropertyChangedSignal("Value"):Connect(function()
         Sound.PlayOnRemove = true
         Sound:Destroy()
         
-        game.StarterGui:SetCore("SendNotification", { Title = "感谢你的使用"; Text = "群号742810207,译者:纳西妲世界第一可爱,代理者:hi32mop" })
+        game.StarterGui:SetCore("SendNotification", { Title = "感谢你的使用"; Text = "译者:纳西妲世界第一可爱，快手号：lizuoze666" })
         return
     end
 end)
