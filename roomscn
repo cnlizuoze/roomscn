@@ -103,7 +103,6 @@ function getLocker()
 end
 
 function getPath()
-    game.StarterGui:SetCore("SendNotification", { Title = "译者:纳西妲世界第一"; Text = "群号742810207,代理者:hi32mop" })
     local Part
 	
     local Entity = workspace:FindFirstChild("A60") or workspace:FindFirstChild("A120")
