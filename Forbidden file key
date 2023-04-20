@@ -117,7 +117,7 @@ SubmitButtonUICorner.Parent = SubmitButton
 -- 设置图片
 CorrectIncorrectImageLabel.Name = "CorrectIncorrectImageLabel"
 CorrectIncorrectImageLabel.Parent = CardSystem
-CorrectIncorrectImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CorrectIncorrectImageLabel.Image = “”(255, 255, 255)
 CorrectIncorrectImageLabel.BackgroundTransparency = 1.000
 CorrectIncorrectImageLabel.Position = UDim2.new(0.75, 0,0.8, 0)
 CorrectIncorrectImageLabel.Size = UDim2.new(0, 60, 0, 60)
