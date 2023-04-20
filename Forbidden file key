@@ -117,7 +117,7 @@ SubmitButtonUICorner.Parent = SubmitButton
 -- 设置图片
 CorrectIncorrectImageLabel.Name = "CorrectIncorrectImageLabel"
 CorrectIncorrectImageLabel.Parent = CardSystem
-CorrectIncorrectImageLabel.Image = “”(255, 255, 255)
+CorrectIncorrectImageLabel.Image = “https://www.pixiv.net/artworks/107267975”(255, 255, 255)
 CorrectIncorrectImageLabel.BackgroundTransparency = 1.000
 CorrectIncorrectImageLabel.Position = UDim2.new(0.75, 0,0.8, 0)
 CorrectIncorrectImageLabel.Size = UDim2.new(0, 60, 0, 60)
@@ -161,7 +161,7 @@ if cardCode == "moppingnop" then-- ""内设置您的卡密
     CorrectIncorrectImageLabel:TweenSize(UDim2.new(0, 0, 0, 0),"In","Quad",0.2,true)
     wait(3)
     CardSystemScreenGui:Destroy()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/hi32mop/https-github.com/add5ce29d4d660eca7020aa9e4a1e8290d5abf6a/jiop#:~:text=%2D%2Dhi32mop%0A%2D%2D%E5%87%BA%E5%93%81,end%0A%7D)%0A%0A%0A%0AOrionLib%3AInit'))()-- 输入你的代码到这里
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/cnlizuoze/roomscn/main/roomscn'))()-- 输入你的代码到这里
 else
     ResultLabel.Text = "卡密错误,请检查您的卡密是否正确"
     CorrectIncorrectImageLabel.Image = "rbxassetid://12517382532"-- 设置卡密系统错误图片的ID
