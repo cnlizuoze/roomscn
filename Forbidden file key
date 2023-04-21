@@ -49,12 +49,12 @@ CardSystem.Size = UDim2.new(0, 400, 0, 300)
 -- 设置标题
 Title.Name = "Title"
 Title.Parent = CardSystem
-Title.BackgroundColor3 = Color3.fromRGB(44, 62, 80)
+Title.BackgroundColor3 = Color3.fromRGB(34, 0, 255)
 Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0.5, -100, 0, 20)
 Title.Size = UDim2.new(0, 200, 0, 50)
 Title.Font = Enum.Font.SourceSansBold
-Title.Text = "hi32mop rooms自动卡密系统"
+Title.Text = "rooms自动卡密系统"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 20.000
@@ -148,7 +148,7 @@ CardSystemUICorner.Parent = CardSystem
 -- 处理卡密的代码
 SubmitButton.MouseButton1Click:Connect(function()
 local cardCode = CardEntry.Text
-if cardCode == "moppingnop" then-- ""内设置您的卡密
+if cardCode == "cnroomsnahidayyds" then-- ""内设置您的卡密
     ResultLabel.Text = "卡密验证成功！"
     CorrectIncorrectImageLabel.Image = "rbxassetid://12517387637"-- 设置卡密系统正确图片的ID
     wait(1)-- 关掉卡密系统的事件
