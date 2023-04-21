@@ -150,6 +150,7 @@ CardSystemUICorner.Parent = CardSystem
 SubmitButton.MouseButton1Click:Connect(function()
 local cardCode = CardEntry.Text
 if cardCode == "cnroomsnahidayyds" then-- ""内设置您的卡密
+    CardEntry.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
     ResultLabel.Text = "卡密验证成功！"
     CorrectIncorrectImageLabel.Image = "rbxassetid://12517387637"-- 设置卡密系统正确图片的ID
     wait(1)-- 关掉卡密系统的事件
