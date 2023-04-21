@@ -118,7 +118,7 @@ SubmitButtonUICorner.Parent = SubmitButton
 -- 设置图片
 CorrectIncorrectImageLabel.Name = "CorrectIncorrectImageLabel"
 CorrectIncorrectImageLabel.Parent = CardSystem
-CardEntry.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CardEntry.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
 CorrectIncorrectImageLabel.BackgroundTransparency = 1.000
 CorrectIncorrectImageLabel.Position = UDim2.new(0.75, 0,0.8, 0)
 CorrectIncorrectImageLabel.Size = UDim2.new(0, 60, 0, 60)
@@ -150,7 +150,6 @@ CardSystemUICorner.Parent = CardSystem
 SubmitButton.MouseButton1Click:Connect(function()
 local cardCode = CardEntry.Text
 if cardCode == "cnroomsnahidayyds" then-- ""内设置您的卡密
-    CardEntry.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
     ResultLabel.Text = "卡密验证成功！"
     CorrectIncorrectImageLabel.Image = "rbxassetid://12517387637"-- 设置卡密系统正确图片的ID
     wait(1)-- 关掉卡密系统的事件
