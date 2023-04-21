@@ -41,7 +41,7 @@ CardSystemScreenGui.Parent = game.CoreGui
 -- 设置框架
 CardSystem.Name = "CardSystem"
 CardSystem.Parent = CardSystemScreenGui
-CardSystem.BackgroundColor3 = Color3.fromRGB(44, 62, 80)
+CardSystem.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
 CardSystem.BorderSizePixel = 0
 CardSystem.Position = UDim2.new(0.5, -200, 0.5, -150)
 CardSystem.Size = UDim2.new(0, 400, 0, 300)
@@ -49,7 +49,7 @@ CardSystem.Size = UDim2.new(0, 400, 0, 300)
 -- 设置标题
 Title.Name = "Title"
 Title.Parent = CardSystem
-Title.BackgroundColor3 = Color3.fromRGB(34, 0, 255)
+Title.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
 Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0.5, -100, 0, 20)
 Title.Size = UDim2.new(0, 200, 0, 50)
@@ -63,7 +63,7 @@ Title.TextWrapped = true
 -- 设置卡密标签
 CardLabel.Name = "CardLabel"
 CardLabel.Parent = CardSystem
-CardLabel.BackgroundColor3 = Color3.fromRGB(44, 62, 80)
+CardLabel.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
 CardLabel.BorderSizePixel = 0
 CardLabel.Position = UDim2.new(0.232500002, -75, 0.430000007, 0)
 CardLabel.Size = UDim2.new(0, 144, 0, 36)
@@ -117,7 +117,7 @@ SubmitButtonUICorner.Parent = SubmitButton
 -- 设置图片
 CorrectIncorrectImageLabel.Name = "CorrectIncorrectImageLabel"
 CorrectIncorrectImageLabel.Parent = CardSystem
-CardEntry.BackgroundColor3 = Color3.fromRGB(25, 55, 155)
+CardEntry.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 CorrectIncorrectImageLabel.BackgroundTransparency = 1.000
 CorrectIncorrectImageLabel.Position = UDim2.new(0.75, 0,0.8, 0)
 CorrectIncorrectImageLabel.Size = UDim2.new(0, 60, 0, 60)
