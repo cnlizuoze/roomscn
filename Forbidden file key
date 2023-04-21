@@ -54,7 +54,8 @@ Title.BorderSizePixel = 0
 Title.Position = UDim2.new(0.5, -100, 0, 20)
 Title.Size = UDim2.new(0, 200, 0, 50)
 Title.Font = Enum.Font.SourceSansBold
-Title.Text = "rooms自动卡密系统"
+Title.Text = "rooms自动卡密系统
+群号:742810207"
 Title.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title.TextScaled = true
 Title.TextSize = 20.000
@@ -130,7 +131,7 @@ ImageLabelUICorner.Parent = CorrectIncorrectImageLabel
 -- 设置结果标签
 ResultLabel.Name = "ResultLabel"
 ResultLabel.Parent = CardSystem
-ResultLabel.BackgroundColor3 = Color3.fromRGB(44, 62, 80)
+ResultLabel.BackgroundColor3 = Color3.fromRGB(0, 128, 0)
 ResultLabel.BorderSizePixel = 0
 ResultLabel.Position = UDim2.new(0.345, -100,0.86, 0)
 ResultLabel.Size = UDim2.new(0, 210,0, 32)
