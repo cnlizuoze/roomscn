@@ -1,4 +1,4 @@
-game.StarterGui:SetCore("SendNotification", { Title = "译者:纳西妲世界第一"; Text = "群号742810207,代理者:hi32mop" })
+game.StarterGui:SetCore("SendNotification", { Title = "译者:威廉你大哥"; Text = "群号742810207,代理者:hi32mop" })
 Duration = 5;
 
 if game.PlaceId ~= 6839171747 or game.ReplicatedStorage.GameData.Floor.Value ~= "Rooms" then
@@ -131,7 +131,7 @@ LatestRoom:GetPropertyChangedSignal("Value"):Connect(function()
         Sound.PlayOnRemove = true
         Sound:Destroy()
         
-        game.StarterGui:SetCore("SendNotification", { Title = "感谢你的使用"; Text = "群号742810207,译者:纳西妲世界第一可爱,代理者:hi32mop" })
+        game.StarterGui:SetCore("SendNotification", { Title = "感谢你的使用"; Text = "群号742810207,译者:威廉你大哥,代理者:hi32mop" })
         return
     end
 end)
